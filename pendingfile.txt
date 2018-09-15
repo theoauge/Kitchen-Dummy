@@ -1,0 +1,36 @@
+<!DOCTYPE = HTML>
+<html>
+    <script>
+    </script>
+    <body>
+    <?php
+      include ('/home/kitchendummy/public_html/scripts/pending.php');
+    ?>
+        <head>
+          <title>$name</title>
+            <link rel="stylesheet" type="text/css" href="/recipes/general.css" />
+        </head>
+        <header class="row">
+          <ul class="column">
+            <li><a href="/index.php">Home</a></li>
+            <li><a href="/cs.php">Contact and Support</a></li>
+          </ul>
+            <h5 class="column">kitchen<br>dummy</h5>
+            <ul class="column">
+              <li><a href="/rsu.php">Recipe Submit</a></li>
+              <li><a href="/rse.php">Recipe Search </a></li>
+              <li><a href="/is.php">Ingredient Search</a></li>
+            </ul>
+          </header>
+          <span id="name" style="font-size: 28px; padding: 1%;">$name</span><br>
+          <span style="font-size: 24px;">Ingredients</span>
+          <p id="ing" >$ing</p>
+          <span style="font-size: 24px;">Instructions</span>
+          <p id="ins" >$ins</p>
+          <form method="post" action="#">
+            <textarea type="text" id="name" name="name" class="name"></textarea>
+            <input id="button1" type="submit" name="accept" value="Accept"><br>
+            <input id="button2" type="submit" name="decline" value="Decline"><br>
+          </form>
+    </body>
+</html>

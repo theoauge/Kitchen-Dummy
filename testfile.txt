@@ -1,0 +1,28 @@
+<!DOCTYPE = HTML>
+<html>
+    <script>
+    </script>
+    <body>
+        <head>
+          <title>$name</title>
+            <link rel="stylesheet" type="text/css" href="general.css" />
+        </head>
+        <header class="row">
+          <ul class="column">
+            <li><a href="/index.php">Home</a></li>
+            <li><a href="/cs.php">Contact and Support</a></li>
+          </ul>
+            <h5 class="column">kitchen<br>dummy</h5>
+            <ul class="column">
+              <li><a href="/rsu.php">Recipe Submit</a></li>
+              <li><a href="/rse.php">Recipe Search </a></li>
+              <li><a href="/is.php">Ingredient Search</a></li>
+            </ul>
+          </header>
+          <span style="font-size: 28px; padding: 1%;">$name</span><br>
+          <span style="font-size: 24px;">Ingredients</span>
+          <p>$ing</p>
+          <span style="font-size: 24px;">Instructions</span>
+          <p>$ins</p>
+    </body>
+</html>
